@@ -18,8 +18,9 @@ Usage:
 * 'kernel' is a current python instance
 * when cell is run, its side effects stay in the kernel
 * Use "Kernel → Restart & Run All" to clear memory and run all cells from the top
+* cells can be either _Code_ or _Markdown_
 
-Notebook creates `.ipynb` files, that can be uploaded directly to GitHub.
+Notebook creates `.ipynb` files, that can be uploaded directly to GitHub. You can also save as `PDF` or `HTML`.
 
 # JupyterLab IDE
 This is an IDE in a web-browser. Just better way to edit and manage your jupyter notebooks.
