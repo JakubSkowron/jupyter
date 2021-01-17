@@ -1,19 +1,28 @@
-# Jupyter
-My Jupyter Notebooks. An easy way to edit and run python files in web browser.
+# Jupyter Notebook
+My Jupyter Notebooks. An easy way to edit and run Python code snippets in web browser.
 
 Install jupyter notebook:
 
-```$ sudo apt install jupyter-notebook # or full 'jupyter'```
+```$ sudo apt install jupyter-notebook # or 'jupyter'```
 
 Run:
+
 ```$ jupyter notebook```
 
-Open the link you got in browser (localhost:8888)
+This will spawn local webserver. Open the link you got in browser (localhost:8888)
 
-Creates `.ipynb` files, that can be uploaded directly to GitHub.
+![Jupyter in web-browser](Jupyter.png)
 
-# JupyterLab
-This is a web-browser based IDE for Jupyter Notebooks. Just better way to edit and manage your python notebooks.
+Usage:
+* Each 'cell' (code snippet) can be run using _Shift+Enter_
+* 'kernel' is a current python instance
+* when cell is run, its side effects stay in the kernel
+* Use "Kernel → Restart & Run All" to clear memory and run all cells from the top
+
+Notebook creates `.ipynb` files, that can be uploaded directly to GitHub.
+
+# JupyterLab IDE
+This is an IDE in a web-browser. Just better way to edit and manage your jupyter notebooks.
 
 Install:
 
